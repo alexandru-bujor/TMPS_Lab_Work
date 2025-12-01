@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	lab0solid "TMPS_Lab_Work/Lab_0_Solid"
+	lab0solid "TMPS_Lab_Work/Lab_0"
 )
 
 func main() {
