@@ -38,7 +38,7 @@ TMPS_Lab_Work/
 ---
 
 ## Quick Links
-- [Laboratory Work 0](#Lab_0_Solid)
+- 
 
 ---
 
