@@ -11,9 +11,6 @@ Each lab demonstrates core design principles and patterns required by the TMPS c
 ```
 TMPS_Lab_Work/
 │
-├─ go.mod                      # Go module definition
-├─ main.go                     # Entry point – select which lab to run
-│
 ├─ Lab_0_Solid/                # Laboratory Work 0 – SOLID Principles
 │  ├─ srp.go                   # Single Responsibility Principle
 │  ├─ ocp.go                   # Open/Closed Principle
@@ -50,25 +47,7 @@ TMPS_Lab_Work/
 
 ---
 
-## ▶ **How to Run the Project**
 
-1. Open terminal inside the project root (`TMPS_Lab_Work/`)
-2. Run:
-```bash
-go run .
-```
-3. You will be prompted to select a laboratory work:
-```
-Enter lab number (0, 1, 2, 3):
-```
-
-Example:
-```
-> 2
-Running Structural Design Patterns Lab...
-```
-
----
 
 ##  **Quick Links to Laboratory READMEs**
 
