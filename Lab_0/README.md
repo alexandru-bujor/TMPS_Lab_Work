@@ -81,7 +81,6 @@ SRP → Report manages only text
 OCP → Shapes extend without modifying logic
 DIP → Notification depends on abstractions
 ```
-
 ---
 
 ## 🧾 Summary
