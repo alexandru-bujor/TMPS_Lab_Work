@@ -49,20 +49,23 @@ TMPS_Lab_Work/
 
 
 
-##  **Quick Links to Laboratory READMEs**
+## 🔗 Quick Links to Laboratory Works
 
-- **Lab 0 – SOLID Principles**  
-  `/Lab_0_Solid/README.md`
+### ➡️ Laboratory Work 0 – SOLID Principles
+- 📄 [README](Lab_0/README.md)
+- 📁 [Folder](Lab_0)
 
-- **Lab 1 – Creational Design Patterns**  
-  `/Lab_1_Creational/README.md`
+### ➡️ Laboratory Work 1 – Creational Design Patterns
+- 📄 [README](Lab_1/README.md)
+- 📁 [Folder](Lab_1)
 
-- **Lab 2 – Structural Design Patterns**  
-  `/Lab_2_Structural/README.md`
+### ➡️ Laboratory Work 2 – Structural Design Patterns
+- 📄 [README](Lab_2/README.md)
+- 📁 [Folder](Lab_2)
 
-- **Lab 3 – Behavioral Design Patterns**  
-  `/Lab_3_Behavioral/README.md`
-
+### ➡️ Laboratory Work 3 – Behavioral Design Patterns
+- 📄 [README](Lab_3/README.md)
+- 📁 [Folder](Lab_3)
 ---
 
 ##  **Technologies Used**
