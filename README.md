@@ -1,57 +1,106 @@
-# TMPS Laboratory Works – Golang
+
+# **TMPS Laboratory Works – Golang**
 
 This repository contains laboratory works developed in **Go (Golang)** for the **TMPS (Software Design Principles)** course.  
-Each lab demonstrates fundamental software design patterns and principles.
+Each lab demonstrates core design principles and patterns required by the TMPS curriculum.
 
 ---
 
-## 📂 Project Structure
+##  **Project Structure**
 
 ```
 TMPS_Lab_Work/
 │
-├─ go.mod                  # Go module file
-├─ main.go                 # Entry point – choose which lab to run
+├─ go.mod                      # Go module definition
+├─ main.go                     # Entry point – select which lab to run
 │
-├─ Lab_0_Solid/            # Laboratory Work #1
-│  ├─ srp.go               # Single Responsibility Principle
-│  ├─ ocp.go               # Open/Closed Principle
-│  ├─ dip.go               # Dependency Inversion Principle
-│  ├─ lab1.go              # Lab 1 manager and explanations
-│  └─ README.md            # README for this laboratory work
-└─ README.md               # README explaining all the laboratory works
-   
+├─ Lab_0_Solid/                # Laboratory Work 0 – SOLID Principles
+│  ├─ srp.go                   # Single Responsibility Principle
+│  ├─ ocp.go                   # Open/Closed Principle
+│  ├─ dip.go                   # Dependency Inversion Principle
+│  ├─ lab0.go                  # Manager / runner for Lab 0
+│  └─ README.md                # SOLID lab documentation
+│
+├─ Lab_1_Creational/           # Laboratory Work 1 – Creational Design Patterns
+│  ├─ singleton/               # Singleton pattern implementation
+│  ├─ builder/                 # Builder pattern implementation
+│  ├─ factory/                 # Factory Method / Abstract Factory
+│  ├─ domain/                  # Domain models used in lab
+│  ├─ lab1.go                  # Manager / runner for Lab 1
+│  └─ README.md                # README report for Lab 1
+│
+├─ Lab_2_Structural/           # Laboratory Work 2 – Structural Design Patterns
+│  ├─ decorator/               # Decorator pattern implementation
+│  ├─ adapter/                 # Adapter pattern implementation
+│  ├─ facade/                  # Facade pattern implementation
+│  ├─ domain/                  # Shared domain models
+│  ├─ lab2.go                  # Manager / runner for Lab 2
+│  └─ README.md                # README report for Lab 2
+│
+├─ Lab_3_Behavioral/           # Laboratory Work 3 – Behavioral Design Patterns
+│  ├─ observer/                # Observer pattern implementation
+│  ├─ strategy/                # Strategy pattern implementation
+│  ├─ command/                 # Command pattern implementation
+│  ├─ domain/                  # Shared domain models
+│  ├─ lab3.go                  # Manager / runner for Lab 3
+│  └─ README.md                # README report for Lab 3
+│
+└─ README.md                   # Global root README (this file)
 ```
 
 ---
 
-## ▶How to Run
+## ▶ **How to Run the Project**
 
-1. Open terminal inside the project root (`TMPS_Lab_Work`)
-2. Run the command:
-   ```bash
-   go run .
-   ```
-3. When prompted, enter the lab number (e.g., `1`, `2`)
+1. Open terminal inside the project root (`TMPS_Lab_Work/`)
+2. Run:
+```bash
+go run .
+```
+3. You will be prompted to select a laboratory work:
+```
+Enter lab number (0, 1, 2, 3):
+```
 
-
----
-
-## Quick Links
-- 
-
----
-
-
-## Technologies Used
-- **Language:** Go 1.22+
-- **Paradigm:** Modular / Object-Oriented Design
+Example:
+```
+> 2
+Running Structural Design Patterns Lab...
+```
 
 ---
 
-## 👤 Author
+##  **Quick Links to Laboratory READMEs**
+
+- **Lab 0 – SOLID Principles**  
+  `/Lab_0_Solid/README.md`
+
+- **Lab 1 – Creational Design Patterns**  
+  `/Lab_1_Creational/README.md`
+
+- **Lab 2 – Structural Design Patterns**  
+  `/Lab_2_Structural/README.md`
+
+- **Lab 3 – Behavioral Design Patterns**  
+  `/Lab_3_Behavioral/README.md`
+
+---
+
+##  **Technologies Used**
+
+- **Go 1.22+**
+- **Object-Oriented & Modular Architecture**
+- **Design Patterns Implemented:**
+    - Creational (Singleton, Builder, Factory)
+    - Structural (Decorator, Adapter, Facade)
+    - Behavioral (Observer, Strategy, Command)
+- **SOLID Principles**
+
+---
+
+## 👤 **Author**
 Developed by **Bujor Alexandru**  
 Group: **FAF-231**
-#   T M P S _ L a b _ W o r k 
- 
- 
+
+---
+
